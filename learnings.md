@@ -38,7 +38,6 @@ fork => 3rd party repo => own github => git clone
 - Performance and Optimization: Shallow clones, Partial clones
 
 - Undo Changes (working directory - staging area - Local repo - Remote repo)
-  - git checkout -- . (discard changes in the working directory)
-  - git reset HEAD . (unstaging)
-  - git reset --hard HEAD (unstaging and discard changes in the working
-    directory)
+  - git checkout -- . (undo from unstaging)
+  - git reset HEAD . (undo from staging)
+  - git reset --hard HEAD (undo from unstaging and staging)
