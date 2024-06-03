@@ -41,4 +41,5 @@ fork => 3rd party repo => own github => git clone
   - git checkout -- . (undo from unstaging)
   - git reset HEAD . (undo from staging)
   - git reset --hard HEAD (undo from unstaging and staging)
-  - git commit --amend (correcting the commit message)
+  - git commit --amend (correcting the commit message & add new files)
+  - git revert (undo a commit)
