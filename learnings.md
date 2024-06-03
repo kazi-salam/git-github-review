@@ -42,4 +42,6 @@ fork => 3rd party repo => own github => git clone
   - git reset HEAD . (undo from staging)
   - git reset --hard HEAD (undo from unstaging and staging)
   - git commit --amend (correcting the commit message & add new files)
-  - git revert (undo a commit)
+  - git revert <commitId> (undo a commit)
+  - git revert <commitId> + git push (reverting a push commit)
+  - git reset <commitId> + git push (reverting a push commit)
