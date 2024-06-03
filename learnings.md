@@ -44,4 +44,5 @@ fork => 3rd party repo => own github => git clone
   - git commit --amend (correcting the commit message & add new files)
   - git revert <commitId> (undo a commit)
   - git revert <commitId> + git push (reverting a push commit)
-  - git reset <commitId> + git push (reverting a push commit)
+  - git reset --hard <commitId> + git push --force (force pushing to undo a
+    commit)
